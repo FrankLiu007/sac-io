@@ -140,7 +140,7 @@ class sac:
 	data=[]
 	def __init__(self):
 		pass
-	def read(fname):
+	def read(self, fname):
 		inf=open(fname,'rb')
 		tt=inf.read(4)
 		self.delta=struct.unpack('f',tt)
